@@ -155,3 +155,39 @@ a {
     color: #000;
     font-weight: 100;
 }
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 9vh;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin: 1% 0;
+}
+.contacto p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 0.18rem;
+}
+

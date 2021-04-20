@@ -37,17 +37,17 @@ li {
     font-family: 'Bitter', serif;
     font-size: 1.875rem;
     font-weight: 400;
-    color: rgb(184, 182, 62);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
-    border: 1px solid rgb(184, 182, 62);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10%;
     padding: 2% 5%;
 }
 
 a {
-    color: rgb(184, 182, 62);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ a {
     font-size: 2.5rem;
     text-align: end;
     letter-spacing: 0.2rem;
-    color: rgb(184, 182, 62);
+    color: rgb(255, 255, 255);
     font-weight: lighter;
     z-index: -1;
 }
@@ -134,6 +134,7 @@ a {
     font-family: 'Bitter', serif;
     color: rgb(0, 0, 0);
     margin-bottom: 3%;
+    border-bottom: 1px dashed rgb(0, 0, 0);
 }
 
 .precioB {

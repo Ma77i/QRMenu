@@ -10,17 +10,20 @@ body {
 
 .contenedor0 {
     background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 }
 .mqr {
+    color: #c7cce7;
     background-color: #000;
-    margin-top: 1%;
+    margin: 2% 0%;
     font-family: 'Source Serif Pro', serif;
-    color: white;
+    font-weight: 500;
+    font-size: 30px;
     text-align: center;
-    text-shadow: 0px 0px 3px rgb(160, 123, 123);
+    text-shadow: 0px 0px 1px rgb(255, 255, 255);
 }
+
 
 h1 {
     margin-top: 1%;
@@ -30,12 +33,9 @@ h1 {
 }
 
 .mqr__sub{
-    font-family: 'Source Serif Pro', serif;
-    color: #000000;
-    text-align: center;
-    margin: 5%;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    text-align: center;
 }
 
 .ej {
@@ -46,7 +46,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.16rem;
     margin: 5%;
-    text-shadow: 0px 0px 4px #000;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
 
 }
 
@@ -58,7 +58,7 @@ h3 {
     text-align: start;
     letter-spacing: 0.2rem;
     margin: 5%;
-    text-shadow: 0px 0px 1px #000;
+    text-shadow: 0px 0px 1px rgb(255, 255, 255);
 }
 
 .prop {
@@ -68,7 +68,7 @@ h3 {
     margin: 5%;
     text-indent: 15px;
     letter-spacing: -0.02rem;
-    text-shadow: 0px 0px 4px #000;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
 .ofer {
@@ -82,12 +82,22 @@ h3 {
     font-size: larger;
     margin: 2% 5%;
     color: white;
-    text-shadow: 0px 0px 4px #000;
+    text-shadow: 0px 0px 3px #000;
+    list-style-type:circle;
 }
 
 span {
     color: rgb(164, 163, 228);
 }
+
+
+
+
+
+
+/* MENU EJEMPLO*/
+
+
 nav {
     background-color: black;
     display: flex;

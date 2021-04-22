@@ -17,11 +17,11 @@ body {
     color: #c7cce7;
     background-color: #000;
     margin: 2% 0%;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 500;
-    font-size: 30px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 40px;
     text-align: center;
-    text-shadow: 0px 0px 1px rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
 
 
@@ -38,6 +38,17 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    color: #000000;
+    text-align: start;
+    letter-spacing: 0.2rem;
+    margin: 5%;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
 .ej {
     font-family: 'Source Serif Pro', serif;
     font-size: 40px;
@@ -46,19 +57,8 @@ h1 {
     text-align: center;
     letter-spacing: 0.16rem;
     margin: 5%;
-    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
 
-}
-
-h3 {
-    font-family: 'Source Serif Pro', serif;
-    font-size: larger;
-    font-variant: small-caps;
-    color: #000000;
-    text-align: start;
-    letter-spacing: 0.2rem;
-    margin: 5%;
-    text-shadow: 0px 0px 1px rgb(255, 255, 255);
 }
 
 .prop {
